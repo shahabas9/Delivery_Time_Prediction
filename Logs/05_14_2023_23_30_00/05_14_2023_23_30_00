@@ -1,0 +1,10 @@
+[ 2023-05-14 23:30:01,019 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-14 23:30:01,209 ] 186 werkzeug - INFO -  * Debugger PIN: 615-093-892
+[ 2023-05-14 23:30:07,786 ] 85 root - INFO - Dataframe Gathered
+[ 2023-05-14 23:30:31,203 ] 27 root - INFO - exception occured at prediction
+[ 2023-05-14 23:30:31,368 ] 186 werkzeug - INFO - 127.0.0.1 - - [14/May/2023 23:30:31] "[35m[1mPOST /pred HTTP/1.1[0m" 500 -
+[ 2023-05-14 23:30:32,935 ] 186 werkzeug - INFO - 127.0.0.1 - - [14/May/2023 23:30:32] "[36mGET /pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-14 23:30:32,937 ] 186 werkzeug - INFO - 127.0.0.1 - - [14/May/2023 23:30:32] "[36mGET /pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-14 23:30:33,620 ] 186 werkzeug - INFO - 127.0.0.1 - - [14/May/2023 23:30:33] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-14 23:30:33,855 ] 186 werkzeug - INFO - 127.0.0.1 - - [14/May/2023 23:30:33] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-14 23:41:21,183 ] 186 werkzeug - INFO -  * Detected change in '/home/shahabas/shahabas/delivery_time_prediction/src/pipeline/prediction_pipeline.py', reloading

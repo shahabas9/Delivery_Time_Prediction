@@ -1,0 +1,30 @@
+[ 2023-05-10 22:03:34,294 ] 25 root - INFO - initializing the data ingestion method
+[ 2023-05-10 22:03:34,456 ] 30 root - INFO - Dataset read as pandas dataframe
+[ 2023-05-10 22:03:35,011 ] 33 root - INFO - train test split
+[ 2023-05-10 22:03:35,574 ] 37 root - INFO - train test split completed
+[ 2023-05-10 22:03:35,574 ] 38 root - INFO - data ingestion stage is completed
+[ 2023-05-10 22:03:35,578 ] 77 root - INFO - Reading train and test data started
+[ 2023-05-10 22:03:35,719 ] 80 root - INFO - Read train and test completed
+[ 2023-05-10 22:03:35,725 ] 81 root - INFO - Train DataFrame head :
+       ID Delivery_person_ID  Delivery_person_Age  Delivery_person_Ratings  Restaurant_latitude  Restaurant_longitude  Delivery_location_latitude  Delivery_location_longitude  Order_Date Time_Orderd Time_Order_picked Weather_conditions Road_traffic_density  Vehicle_condition Type_of_order Type_of_vehicle  multiple_deliveries Festival           City  Time_taken (min)
+0  0x9c7f   RANCHIRES06DEL02                 34.0                      4.8            23.357804             85.325146                   23.377804                    85.345146  01-04-2022       10:50             10:55              Sunny                  Low                  1         Snack      motorcycle                  1.0       No  Metropolitian                18
+1  0x5623     PUNERES05DEL01                 31.0                      3.6            18.543626             73.905101                   18.613626                    73.975101  12-03-2022        0.75             18:05         Sandstorms               Medium                  2        Buffet         scooter                  0.0       No  Metropolitian                31
+2  0x5dbd      VADRES04DEL03                 20.0                      4.8             0.000000              0.000000                    0.030000                     0.030000  15-03-2022       21:40             21:45              Windy                  Jam                  0          Meal      motorcycle                  0.0       No  Metropolitian                26
+3  0x50c4      MYSRES15DEL01                 28.0                      4.7            12.352058             76.606650                   12.462058                    76.716650  25-03-2022       18:20             18:30         Sandstorms               Medium                  1        Buffet      motorcycle                  NaN       No  Metropolitian                25
+4  0x2237     BANGRES12DEL01                 32.0                      3.4            12.939496             77.625999                   13.049496                    77.735999  02-04-2022       23:30             23:45              Sunny                  Low                  0        Buffet      motorcycle                  0.0       No  Metropolitian                31
+[ 2023-05-10 22:03:35,730 ] 82 root - INFO - Test DataFrame head :
+       ID Delivery_person_ID  Delivery_person_Age  Delivery_person_Ratings  Restaurant_latitude  Restaurant_longitude  Delivery_location_latitude  Delivery_location_longitude  Order_Date Time_Orderd Time_Order_picked Weather_conditions Road_traffic_density  Vehicle_condition Type_of_order Type_of_vehicle  multiple_deliveries Festival           City  Time_taken (min)
+0  0x7e8f     SURRES010DEL01                 33.0                      3.6            21.171060             72.789292                   21.281060                    72.899292  23-03-2022       22:20             22:30                Fog                  Low                  1         Snack      motorcycle                  1.0       No  Metropolitian                33
+1  0x8646      JAPRES05DEL03                 35.0                      4.9            26.905287             75.794592                   26.965287                    75.854592  03-03-2022       18:15             18:25         Sandstorms               Medium                  1        Drinks         scooter                  1.0       No  Metropolitian                28
+2  0xa1a9     INDORES15DEL01                 34.0                      4.5            22.760072             75.892574                   22.870072                    76.002574  04-03-2022       17:45              0.75             Stormy               Medium                  1         Snack         scooter                  0.0       No          Urban                25
+3  0xd96a      ALHRES03DEL03                 20.0                      4.5            25.451517             81.832616                   25.591517                    81.972616  14-02-2022       19:50       0.833333333         Sandstorms                  Jam                  1        Buffet         scooter                  1.0       No  Metropolitian                29
+4  0x5fb8      SURRES12DEL01                 20.0                      5.0            21.183434             72.814492                   21.223434                    72.854492  17-03-2022       16:40             16:45         Sandstorms               Medium                  2        Buffet         scooter                  1.0       No  Metropolitian                21
+[ 2023-05-10 22:03:35,730 ] 83 root - INFO -  Getting preprocessor object
+[ 2023-05-10 22:03:35,730 ] 85 root - INFO - Convert Order_Date column to datetime
+[ 2023-05-10 22:03:35,744 ] 89 root - INFO - Extract year, month, and day into separate columns
+[ 2023-05-10 22:03:35,763 ] 98 root - INFO - Extract hour and minute from time ordered and time picked order
+[ 2023-05-10 22:03:36,911 ] 146 root - INFO - converting the new columns into int datatype
+[ 2023-05-10 22:03:36,941 ] 26 root - INFO - data transformation initiated
+[ 2023-05-10 22:03:36,941 ] 34 root - INFO - pipeline initiated
+[ 2023-05-10 22:03:36,941 ] 65 root - INFO - pipeline completed
+[ 2023-05-10 22:03:37,065 ] 197 root - INFO - Exception occured at initiate_data_transformation

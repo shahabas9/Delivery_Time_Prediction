@@ -1,0 +1,10 @@
+[ 2023-05-15 14:35:09,517 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-15 14:35:09,524 ] 186 werkzeug - INFO -  * Debugger PIN: 615-093-892
+[ 2023-05-15 14:35:13,399 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 14:35:13] "GET /pred HTTP/1.1" 200 -
+[ 2023-05-15 14:35:14,666 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 14:35:14] "GET /pred HTTP/1.1" 200 -
+[ 2023-05-15 14:35:16,824 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 14:35:16] "GET /pred HTTP/1.1" 200 -
+[ 2023-05-15 14:35:31,616 ] 88 root - INFO - Dataframe Gathered
+[ 2023-05-15 14:37:10,289 ] 27 root - INFO - exception occured at prediction
+[ 2023-05-15 14:37:13,513 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 14:37:13] "[35m[1mPOST /pred HTTP/1.1[0m" 500 -
+[ 2023-05-15 14:38:03,345 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 14:38:03] "[36mGET /pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-15 14:38:03,885 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 14:38:03] "[36mGET /pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -

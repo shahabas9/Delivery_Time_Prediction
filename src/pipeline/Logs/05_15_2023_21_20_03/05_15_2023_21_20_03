@@ -1,0 +1,3 @@
+[ 2023-05-15 21:20:04,578 ] 102 root - INFO - Dataframe Gathered
+[ 2023-05-15 21:20:04,595 ] 58 root - INFO - exception occured at loading the object
+[ 2023-05-15 21:20:04,595 ] 27 root - INFO - exception occured at prediction

@@ -1,0 +1,11 @@
+[ 2023-05-15 15:06:42,256 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-15 15:06:42,264 ] 186 werkzeug - INFO -  * Debugger PIN: 173-901-433
+[ 2023-05-15 15:06:52,819 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 15:06:52] "GET /pred HTTP/1.1" 200 -
+[ 2023-05-15 15:07:07,669 ] 103 root - INFO - Dataframe Gathered
+[ 2023-05-15 15:07:43,781 ] 27 root - INFO - exception occured at prediction
+[ 2023-05-15 15:07:44,260 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 15:07:44] "[35m[1mPOST /pred HTTP/1.1[0m" 500 -
+[ 2023-05-15 15:07:47,129 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 15:07:47] "[36mGET /pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-15 15:07:47,132 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 15:07:47] "[36mGET /pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-15 15:07:48,335 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 15:07:48] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-15 15:07:48,654 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 15:07:48] "[36mGET /pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-15 15:13:40,818 ] 186 werkzeug - INFO -  * Detected change in '/home/shahabas/shahabas/delivery_time_prediction/src/components/data_transformation.py', reloading
