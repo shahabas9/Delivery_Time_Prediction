@@ -16,6 +16,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Install DVC
+        run: pip install dvc
+
+      - name: Authenticate Google Drive
+        run: |
+          dvc remote modify gdrive gdrive_client_id 409667684369-5c5j26hmofrh3600v6ddm6vuhqeirh7d.apps.googleusercontent.com
+          dvc remote modify gdrive gdrive_client_secret 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
+          dvc remote modify gdrive gdrive_token_file https://oauth2.googleapis.com/token
+
+      - name: Run DVC Pipeline
+        run: dvc repro
 
       - name: Set up Python version
         uses: actions/setup-python@v1
