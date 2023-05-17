@@ -18,6 +18,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install DVC
         run: pip install dvc
+        run: dvc remote add gdrive gdrive://DVC_store
 
       - name: Authenticate Google Drive
         run: |
